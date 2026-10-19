@@ -1,0 +1,7 @@
+*.pcap
+*.pcapng
+*.eml
+*.msg
+*.zip
+*.log
+.DS_Store
