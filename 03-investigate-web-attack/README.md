@@ -24,6 +24,24 @@ grep '/bWAPP/' access.log | head -n 30
 
 The challenge asked about later attack types, payloads, and persistence clues; however, screenshots preserving those specific log requests and responses were not retained.
 
+
+### Additional screenshot evidence (captured in LetsDefend)
+
+The screenshot of `access.log` shows example HTTP requests from `192.168.199.1` on **20 June 2021** in the lab dataset, including:
+
+| Requested resource | HTTP status | Interpretation |
+| --- | --- | --- |
+| `GET /` | `200` | Root page returned successfully |
+| `GET /bWAPP/` | `302` | Redirect; alone not proof of an attack |
+| `GET /bWAPP/portal.php` | `200` | Portal response observed |
+| `GET /bWAPP/js/html5.js` | `304` | Cache validation / not modified |
+| `GET /icons/unknown.gif` | `200` | Web resource request |
+
+The log also shows browser-like traffic with a Firefox/macOS User-Agent and referrers to `192.168.199.5`. These **specific lines** appear consistent with visiting pages and assets; they do not independently prove directory brute forcing, authentication compromise, command injection, or persistence. Additional request lines would be needed to corroborate those later events.
+
+*Source: screenshot shared during the LetsDefend web-attack investigation. It is not yet uploaded to GitHub; screenshot upload is optional under the provided NEXLEVR requirements.*
+
+
 ## Verdict
 **Web attack investigation challenge completed; specific exploit outcomes not independently proven by saved excerpts.** The supplied attack scenario and completion badge do not by themselves establish successful code execution, persistence, or compromise.
 
