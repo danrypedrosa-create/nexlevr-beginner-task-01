@@ -2,7 +2,7 @@
 
 **Three completed LetsDefend training investigations** covering phishing email analysis, TCP port-scanning traffic, and web-server access logs. Prepared as proof of work for the NEXLEVR Cybersecurity Internship (Beginner Level, Task 01).
 
-> **Status:** 3/3 LetsDefend challenges completed. Write-ups and completion evidence included. **NEXLEVR verification is pending**; this repository does not represent an internship certificate or professional certification.
+> **Status:** 3/3 LetsDefend challenges completed. Three write-ups published; evidence screenshots are being uploaded separately. **NEXLEVR verification is pending**; this repository does not represent an internship certificate or professional certification.
 
 ## Investigations
 
@@ -16,7 +16,7 @@
 
 NEXLEVR asks Beginner Task 01 participants to complete **3 free investigation labs** on LetsDefend, BTLO, or CyberDefenders, and write **a short write-up for each: alert, evidence, and verdict**.
 
-Each report in this repository has those three sections and points to saved evidence. The badge screenshots show challenge completion, not real-world incident impact.
+Each report has those three sections. Evidence screenshots and badges are not yet in this repository; the screenshots from the training session remain available in the prepared local ZIP. Badge screenshots confirm challenge completion, not real-world incident impact.
 
 ## Skills demonstrated
 
@@ -33,19 +33,19 @@ nexlevr-beginner-task-01/
 ├── README.md
 ├── 01-phishing-email/
 │   ├── README.md
-│   └── evidence/
+│   └── evidence/  (screenshots pending)
 ├── 02-port-scan-activity/
 │   ├── README.md
-│   └── evidence/
+│   └── evidence/  (screenshots pending)
 ├── 03-investigate-web-attack/
 │   ├── README.md
-│   └── evidence/
+│   └── evidence/  (screenshots pending)
 ├── SUBMISSION.md
 └── .gitignore
 ```
 
 ## Scope and integrity
 
-All activities were conducted in **LetsDefend's authorized training environment**. The repository contains screenshots of the provided challenges, not real customer SOC records. It does not contain the lab's raw email archive or complete PCAP/access logs, and it does not claim effects that the retained evidence cannot establish.
+All activities were conducted in **LetsDefend's authorized training environment**. The reports describe authorized LetsDefend training challenges, not real customer SOC records. Screenshots will be added after upload. It does not contain the lab's raw email archive or complete PCAP/access logs, and it does not claim effects that the retained evidence cannot establish.
 
-**Next:** Publish to GitHub, review the write-ups, showcase the project, and submit the repository link/tag to NEXLEVR for verification. See [SUBMISSION.md](SUBMISSION.md).
+**Next:** Upload the challenge evidence screenshots, review the write-ups, showcase the project, and submit the link/tag to NEXLEVR for verification. See [SUBMISSION.md](SUBMISSION.md).
