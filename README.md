@@ -1,8 +1,8 @@
 # SOC Investigation Labs | NEXLEVR Beginner Task 01
 
-Three LetsDefend training investigations, documented for **NEXLEVR Beginner Level — Task 01**.
+NEXLEVR Beginner Level proof of work: three LetsDefend investigations for Task 01 and Linux SSH log analysis for Task 02.
 
-> **Status:** All 3 investigation labs completed and all 3 short write-ups published. This is **Task 01 of 3** in the Beginner category. Tasks 02 (authentication log analysis) and 03 (MITRE ATT&CK mapping) are still to be completed. NEXLEVR has not verified the submission or issued a certificate.
+> **Status:** Task 01 and Task 02 reports completed and published. Task 03 (MITRE ATT&CK mapping) remains. NEXLEVR verification and any certificate are pending.
 
 ## Investigations
 
@@ -25,9 +25,12 @@ Complete **three free investigation labs** on LetsDefend, BTLO, or CyberDefender
 - Reading web server access logs and distinguishing ordinary requests from suspicious patterns
 - Clear verdicts that do not overstate what the available evidence proves
 
+## Task 02 — Linux SSH Brute-Force Log Analysis
+
+[View the completed Task 02 report and findings table](task-02-brute-force-log-analysis/README.md). Using TryHackMe's Splunk training dataset (`task5`, `linux_secure`), we identified six failed password attempts against `jack-brown` from `10.14.94.82`, followed by one accepted login for that account. Authorization or compromise cannot be confirmed from these records alone.
+
 ## Beginner category remaining work
 
-- **Task 02:** Analyze sample Windows Event Logs or Linux auth logs for brute-force login patterns; present findings in a table
 - **Task 03:** Map phishing, brute force, ransomware, credential dumping, and data exfiltration to MITRE ATT&CK techniques and identify relevant logs
 
 ## Scope
