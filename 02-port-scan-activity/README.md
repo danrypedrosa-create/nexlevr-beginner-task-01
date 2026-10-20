@@ -45,3 +45,9 @@ This supports analysis of local name-resolution behavior. It does **not**, by it
 
 ## Completion
 LetsDefend **Detector** badge earned October 19, 2026. The full PCAP is not redistributed.
+
+## Evidence screenshot
+
+![TCP SYN scanning pattern in Wireshark](evidence/01-tcp-syn-probes.jpg)
+
+Wireshark display filter: `tcp.flags.syn == 1 && tcp.flags.ack == 0`, showing repeated SYN requests targeting different hosts and ports.
