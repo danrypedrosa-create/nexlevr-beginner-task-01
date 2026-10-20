@@ -20,3 +20,9 @@ An unexpected German-language message impersonated PayPal and encouraged the rec
 
 ## Completion
 LetsDefend **Phishing Analyzer** badge earned October 19, 2026. See the evidence folder once screenshots are uploaded.
+
+## Evidence screenshot
+
+![Phishing email raw headers](evidence/01-email-headers.jpg)
+
+This is the raw Thunderbird header view used to inspect the Return-Path and message metadata.
