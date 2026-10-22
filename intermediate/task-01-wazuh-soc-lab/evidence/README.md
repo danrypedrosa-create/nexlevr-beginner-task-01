@@ -1,24 +1,28 @@
-# Task 01 — Screenshot evidence
+# Task 01 — Selected evidence screenshots
 
-Screenshots were captured from the user's **NEXLEVR-Wazuh** personal lab on October 22, 2026.
+Exactly **eight screenshots**, taken from the separate NEXLEVR-Wazuh VirtualBox lab on October 22, 2026, are included in the local submission ZIP.
 
-## Evidence files to upload
+| Filename | Content |
+| --- | --- |
+| `01-ubuntu-server-information.png` | Ubuntu Server version and hostname |
+| `02-wazuh-services-active.png` | Wazuh service verification: four `active` results |
+| `03-virtualbox-port-forwarding.png` | VirtualBox dashboard NAT port forwarding |
+| `04-wazuh-login.png` | Wazuh login page (no credentials shown) |
+| `05-wazuh-dashboard.png` | Wazuh overview |
+| `06-test-activity.png` | Failed SSH login test and journal entries |
+| `07-wazuh-alerts.png` | Six matching SSH alerts in Threat Hunting |
+| `08-alert-investigation.png` | Rule 2502 details and ATT&CK T1110 mapping |
 
-1. `01-virtualbox-nexlevr-vm.png` — separate VM / NAT forwarding
-2. `02-ubuntu-server.png` — Ubuntu Server version and hostname
-3. `03-wazuh-services.png` — four services shown as active
-4. `04-wazuh-dashboard.png` — successful dashboard access
-5. `05-test-activity.png` — sanitized local SSH authentication failures
-6. `06-wazuh-alerts.png` — six matching Wazuh detections
-7. `07-alert-investigation.png` — Wazuh rule 2502 detail with T1110 mapping
+**Status:** These PNGs have been selected and reviewed. They have **not yet been uploaded to GitHub**. The README deliberately does not display broken image links or claim uploaded images.
 
-**Upload status:** Images are not included in this initial GitHub documentation commit. Do not mark them uploaded until the actual PNGs are committed.
+## Upload
 
-## Before publishing screenshots
+1. Extract the provided `NEXLEVR_Intermediate_Task01_Selected_Evidence.zip` locally.
+2. Open this repository's `intermediate/task-01-wazuh-soc-lab/evidence/` directory.
+3. In GitHub, choose **Add file → Upload files** and select the eight PNGs (not this README).
+4. Review the commit preview and submit the new files.
+5. Check that each image opens in the GitHub directory.
 
-- Exclude all terminal output containing `wazuh-passwords.txt`, admin passwords, service-account credentials or tokens.
-- If an image also contains an exposed password elsewhere on the desktop, crop/redact that area before using it.
-- Do not include confidential real-client tenant names, case numbers or production logs.
-- Prefer full, readable alert details, including timestamp, rule ID, rule level and description.
+Do not include any older screenshot showing `wazuh-passwords.txt`, the Wazuh password list, filled-in password fields, API credentials, or tokens. The previously exposed lab credentials still need rotation.
 
-Return to the [Task 01 report](../README.md).
+[Back to Task 01 report](../README.md).
