@@ -43,4 +43,4 @@ See [SUBMISSION.md](SUBMISSION.md) for the review and submission steps.
 
 Intermediate tasks now have their own repository: [**nexlevr-intermediate-task-02**](https://github.com/danrypedrosa-create/nexlevr-intermediate-task-02).
 
-The Beginner task reports remain in this repository. Any older Intermediate files here are temporary duplicates retained until all evidence images are verified in the separate repository.
+The Beginner task reports remain in this repository. Intermediate Task 01 documentation and its eight evidence screenshots have been verified in the separate repository; the duplicate Intermediate files have been removed from here.
