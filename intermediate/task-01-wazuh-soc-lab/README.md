@@ -109,19 +109,22 @@ Wazuh correctly raised alerts for repeated failed SSH authentication attempts, i
 
 ## Evidence
 
-The following filenames are reserved for screenshots taken during this exercise. **Do not claim or link to an image as uploaded until the image is actually present in the `evidence/` folder.**
+Exactly **eight screenshots** from the verified lab are selected for submission. They were reviewed to exclude earlier screenshots displaying Wazuh admin, API, or service-account passwords. Two duplicate `.png.png` suffixes are normalized to `.png` in the submission package; the image contents are unchanged.
 
 | File | What it demonstrates |
 | --- | --- |
-| `01-virtualbox-nexlevr-vm.png` | Separate NEXLEVR VM and its virtual-disk/network configuration |
-| `02-ubuntu-server.png` | Ubuntu Server hostname and version |
-| `03-wazuh-services.png` | Manager, indexer, dashboard, and Filebeat running |
-| `04-wazuh-dashboard.png` | Accessible Wazuh overview |
-| `05-test-activity.png` | Failed SSH activity shown in local logs |
-| `06-wazuh-alerts.png` | Six matching events and rule levels |
-| `07-alert-investigation.png` | Expanded rule 2502 with ATT&CK mapping |
+| `01-ubuntu-server-information.png` | Ubuntu Server hostname, OS version and VirtualBox guest |
+| `02-wazuh-services-active.png` | Manager, indexer, dashboard and Filebeat all active |
+| `03-virtualbox-port-forwarding.png` | Local-only NAT forwarding from `127.0.0.1:8443` to guest TCP 443 |
+| `04-wazuh-login.png` | Reachable Wazuh login page with empty credential fields |
+| `05-wazuh-dashboard.png` | Functional overview and alert counts |
+| `06-test-activity.png` | Deliberate failed SSH logins and corroborating sshd/journald records |
+| `07-wazuh-alerts.png` | Six matching SSH-related alert records with rule IDs and levels |
+| `08-alert-investigation.png` | Opened Wazuh rule 2502 detail and MITRE ATT&CK T1110 mapping |
 
-See [evidence/README.md](evidence/README.md) for image-handling instructions.
+**Image publishing status:** The eight PNGs must still be uploaded into [evidence/](evidence/) separately; their presence in this table is not proof that they have already been committed to GitHub.
+
+See the [evidence upload instructions](evidence/README.md).
 
 ## Skills practiced
 
