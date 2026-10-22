@@ -41,4 +41,6 @@ See [SUBMISSION.md](SUBMISSION.md) for the review and submission steps.
 
 ## NEXLEVR Intermediate level
 
-The [Intermediate task tracker](intermediate/README.md) contains current progress. [Task 01 — Wazuh SOC Lab](intermediate/task-01-wazuh-soc-lab/README.md) documents a fresh Ubuntu/Wazuh VM, a controlled failed-SSH-login test, six matching Wazuh alerts, and an expanded level 10 alert mapped to MITRE ATT&CK T1110. Technical testing is complete; publishing evidence images and credential rotation are tracked separately.
+Intermediate tasks now have their own repository: [**nexlevr-intermediate-task-02**](https://github.com/danrypedrosa-create/nexlevr-intermediate-task-02).
+
+The Beginner task reports remain in this repository. Any older Intermediate files here are temporary duplicates retained until all evidence images are verified in the separate repository.
