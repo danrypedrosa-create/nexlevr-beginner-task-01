@@ -38,3 +38,7 @@ Complete **three free investigation labs** on LetsDefend, BTLO, or CyberDefender
 All investigations took place in LetsDefend's training environment. The repository shares write-ups, not real customer information or raw challenge materials. Challenge completion badges are distinct from professional certifications.
 
 See [SUBMISSION.md](SUBMISSION.md) for the review and submission steps.
+
+## NEXLEVR Intermediate level
+
+The [Intermediate task tracker](intermediate/README.md) contains current progress. [Task 01 — Wazuh SOC Lab](intermediate/task-01-wazuh-soc-lab/README.md) documents a fresh Ubuntu/Wazuh VM, a controlled failed-SSH-login test, six matching Wazuh alerts, and an expanded level 10 alert mapped to MITRE ATT&CK T1110. Technical testing is complete; publishing evidence images and credential rotation are tracked separately.
